@@ -1,9 +1,9 @@
 import numpy as np
 import pandas as pd
 
-def trainAdaline(xin, yd, eta, tol, maxepocas, par):
+def trainPerceptron(xin, yd, eta, tol, maxepocas, par):
 # xin : matriz Nxn com os dados de entrada
-# yd: rótulos de saída
+# yd: rótulos de saída (0 ou 1)
 # eta : passo de treinamento
 # tol : tolerância de erro
 # maxepocas: número máximo de iterações par : parâmetro de entrada .
@@ -42,7 +42,7 @@ def trainAdaline(xin, yd, eta, tol, maxepocas, par):
             irand = xseq[i]
 
             # Calcula saída do Adaline
-            yhati = 1.0 * np.dot(wt.T, pd.DataFrame(xin.iloc[irand])) # yhati = xin[i] X wt.T
+            yhati = 1.0 * (np.dot(wt.T, pd.DataFrame(xin.iloc[irand])) >=0)# yhati = xin[i] X wt.T
             yhati = pd.DataFrame(yhati)
 
             # Calcula erro
