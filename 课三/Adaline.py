@@ -42,15 +42,15 @@ def trainAdaline(xin, yd, eta, tol, maxepocas, par):
             irand = xseq[i]
 
             # Calcula saída do Adaline
-            yhati = 1.0 * np.dot(wt.T, pd.DataFrame(xin.loc[irand])) # yhati = xin[i] X wt.T
+            yhati = 1.0 * np.dot(wt.T, pd.DataFrame(xin.iloc[irand])) # yhati = xin[i] X wt.T
             yhati = pd.DataFrame(yhati)
 
             # Calcula erro
-            ei = yd.loc[irand] - yhati        # erro: ei = (yi − yˆi)
+            ei = yd.iloc[irand] - yhati        # erro: ei = (yi − yˆi)
             ei = pd.to_numeric(ei[0][0])
 
             # Calcula variaçao no peso
-            dw = eta * (ei * xin.loc[irand])  # dw = η ei xis
+            dw = eta * (ei * xin.iloc[irand])  # dw = η ei xis
             dw = pd.DataFrame(dw).to_numpy()
 
             # Ajusta vetor de pesos
