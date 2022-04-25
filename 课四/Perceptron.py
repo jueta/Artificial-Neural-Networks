@@ -71,3 +71,17 @@ def trainPerceptron(xin, yd, eta, tol, maxepocas, par):
     retlist = [wt, evec[1:nepocas]]
 
     return retlist
+
+
+def yPerceptron(xvec,w, par):
+# xvec : vetor de entrada
+# w: vetor de pesos
+# yp: resposta do Perceptron
+
+    if(par==1):
+        xvec = np.append(1, xvec)
+
+    u = np.dot(xvec, w)
+    y = 1.0 * ( u >= 0 )
+    
+    return y 
