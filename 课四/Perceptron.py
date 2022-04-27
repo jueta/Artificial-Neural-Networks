@@ -78,10 +78,13 @@ def yPerceptron(xvec,w, par):
 # w: vetor de pesos
 # yp: resposta do Perceptron
 
+    xvec = pd.DataFrame(xvec)
+    w = pd.DataFrame(w)
+
     if(par==1):
         xvec = np.append(1, xvec)
 
-    u = np.dot(xvec, w)
+    u = np.dot( w.T, xvec)
     y = 1.0 * ( u >= 0 )
     
     return y 
