@@ -18,7 +18,7 @@ treinaRBF<-function(xin, yin, p) {
 	xclust<-kmeans(xin ,p)
 
 	# Armazena vetores de centros das fun ̧c ̃oes .
-	m<-as.matrix(xclust$centers)
+	m<-as.matrix(xclust$centers) # nolint
 	covlist<-list()
 
 	# Estima matrizes de covariância para todos os centros .
@@ -66,7 +66,7 @@ YRBF<-function(xin, modRBF)
 	}
 
 	##########################
-	N<-dim(xin)[1] # n u ́ m e r o d e a m o s t r a s
+	N<-dim(xin)[1] # numero de amostras
 	n<-dim(xin)[2] # dimens ̃ao de entrada (deve ser maior que 1)
 	m<-as.matrix(modRBF[[1]])
 	covlist<-modRBF[[2]]
