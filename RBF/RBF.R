@@ -18,7 +18,7 @@ treinaRBF<-function(xin, yin, p) {
 	xclust<-kmeans(xin ,p)
 
 	# Armazena vetores de centros das fun ̧c ̃oes .
-	m<-as.matrix(xclust$centers) # nolint
+	m<-as.matrix(xclust$centers) # nolintpr
 	covlist<-list()
 
 	# Estima matrizes de covariância para todos os centros .
