@@ -1,0 +1,67 @@
+\documentclass[10pt]{article}
+
+\usepackage[brazilian]{babel}
+% \usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}%
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage[backend=biber]{biblatex}
+\usepackage{newclude}
+\addbibresource{refs.bib}
+
+\begin{document}
+
+% \maketitle
+
+\include{Capa/capa}
+
+\tableofcontents
+
+\clearpage
+
+\include*{Resumo/Resumo}
+
+\include*{第一/第一}
+
+\include*{第二/第二}
+
+\include{第三/第三}
+
+
+% \begin{figure}[H]
+%     \centering
+%     \begin{subfigure}[b]{0.49\textwidth}
+%         \centering
+%         \includegraphics[scale=1.55]{images/input_image.png}
+%         \caption{Foto sem tratamento}
+%         \label{fig:celula_raw}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[b]{0.49\textwidth}
+%         \centering
+%         %% substituir pela imagem correta depois
+%         \includegraphics[scale=1.52]{images/output_image.png}
+%         \caption{Após algoritmo de detecção de bordas}
+%         \label{fig:detec_quinas}
+%     \end{subfigure}
+%     \caption{Fotos antes e depois do algoritmo de detecção de bordas}
+%     \label{fig:celulas}
+% \end{figure}
+
+% \section{Resultados}
+
+% Todas as operações de processamento de imagens realizadas na pesquisa utilizaram os módulos de \cite{opencv}. Utilizando a rotina para detecção de bordas, mesmo com a configuração da captura da foto não sendo ideal, a aplicação de operações morfológicas \ref{eq:dilation}\ref{eq:erosion} na imagem toda, é possível atingir níveis de acurácia elevados, como indicado na tabela abaixo.
+
+% \begin{equation}
+%     dst(x,y)=max_{(x',y'):element(x',y')!=0}src(x+x',y+y')
+%     \label{eq:dilation}
+% \end{equation}
+
+% \begin{equation}
+%     dst(x,y)=min_{(x',y'):element(x',y')!=0}src(x+x',y+y')
+%     \label{eq:erosion}
+% \end{equation}
+
+\printbibliography
+\end{document}

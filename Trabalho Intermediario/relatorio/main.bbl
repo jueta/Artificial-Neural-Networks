@@ -1,0 +1,264 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{HardwareGabrielGraph}{article}{}
+      \name{author}{7}{}{%
+        {{hash=4767e66484f604a5481ae78ade82b34a}{%
+           family={Arias-Garcia},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Janier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ce83650991855e1b086366363c57f81d}{%
+           family={Mafra},
+           familyi={M\bibinitperiod},
+           given={Augusto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3e3702b601a4209b87cb014ef127f2a2}{%
+           family={Gade},
+           familyi={G\bibinitperiod},
+           given={Liliane},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3bbca8c38cc33ce69d4806063aca5a9d}{%
+           family={Coelho},
+           familyi={C\bibinitperiod},
+           given={Frederico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=904336af5702ee2613fdc2ceb6578930}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Cristiano},
+           giveni={C\bibinitperiod}}}%
+        {{hash=03983485382b132969ab047fa2afe260}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={Luiz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b75dc766ddd5a3fab46c454a696bdfbc}{%
+           family={Braga},
+           familyi={B\bibinitperiod},
+           given={Antônio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc05abe48dbf597be8e11f3b7ea551d7}
+      \strng{fullhash}{45de2281d635035872a5bd370a6ffdf6}
+      \strng{bibnamehash}{dc05abe48dbf597be8e11f3b7ea551d7}
+      \strng{authorbibnamehash}{dc05abe48dbf597be8e11f3b7ea551d7}
+      \strng{authornamehash}{dc05abe48dbf597be8e11f3b7ea551d7}
+      \strng{authorfullhash}{45de2281d635035872a5bd370a6ffdf6}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is well known that there is an increasing interest in edge computing to reduce the distance between cloud and end devices, especially for machine learning (ML) methods. However, when related to latency-sensitive applications, little work can be found in ML literature on suitable embedded systems implementations. This article presents new ways to implement the decision rule of a large margin classifier based on Gabriel graphs as well as an efficient implementation of this on an embedded system. The proposed approach uses the nearest neighbor method as the decision rule, and the implementation starts from an RTL pipeline architecture developed for binary large margin classifiers and proposes the integration in a hardware/software co-design. Results showed that the proposed approach was statistically similar to the classifier and had a speedup factor of up to eight times compared to the classifier executed in software, with performance suitable for ML latency-sensitive applications.}
+      \field{issn}{1941-0050}
+      \field{journaltitle}{IEEE Transactions on Industrial Informatics}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Enhancing Performance of Gabriel Graph-Based Classifiers by a Hardware Co-Processor for Embedded System Applications}
+      \field{volume}{17}
+      \field{year}{2021}
+      \field{pages}{1186\bibrangedash 1196}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TII.2020.2987329
+      \endverb
+    \endentry
+    \entry{AlexAssis}{article}{}
+      \name{author}{5}{}{%
+        {{hash=1854faf5b220b4eb86406c54a5ec1897}{%
+           family={Assis},
+           familyi={A\bibinitperiod},
+           given={Alex\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=69a9d7b0688e511d25e77b040a87ae9c}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={Luiz\bibnamedelimb C.\bibnamedelimi B.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3c062bc2fb440c339230a67ef42f789f}{%
+           family={Araújo},
+           familyi={A\bibinitperiod},
+           given={Lourenço\bibnamedelimb R.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=a9659b410983b09e723b220fd86d3d2d}{%
+           family={Hanriot},
+           familyi={H\bibinitperiod},
+           given={Vítor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a243081f51bb80ebfac76b9368a0d1be}{%
+           family={Braga},
+           familyi={B\bibinitperiod},
+           given={Antonio\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9c8a2ee8f0b0e015da645ff5d3476f1}
+      \strng{fullhash}{1fd81850e007fbd756bae242aa0d3d95}
+      \strng{bibnamehash}{e9c8a2ee8f0b0e015da645ff5d3476f1}
+      \strng{authorbibnamehash}{e9c8a2ee8f0b0e015da645ff5d3476f1}
+      \strng{authornamehash}{e9c8a2ee8f0b0e015da645ff5d3476f1}
+      \strng{authorfullhash}{1fd81850e007fbd756bae242aa0d3d95}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents the concept of Graph-based Local Resampling of perceptron-like neural networks with random projections (RN-ELM) which aims at regularization of the yielded model. The addition of synthetic noise to the learning set finds some similarity with data augmentation approaches that are currently adopted in many deep learning strategies. With the graph-based approach, however, it is possible to direct resample in the margin region instead of exhaustively cover the whole input space. The goal is to train neural networks with added noise in the margin region, located by structural information extracted from a planar graph. The so-called structural vectors, which are the training set vertices near the class boundary, are obtained from the structural information using Gabriel Graph. Synthetic samples are added to the learning set around the geometric vectors, improving generalization performance. A mathematical formulation that shows that the addition of synthetic samples has the same effect as the Tikhonov regularization is presented. Friedman and pos-hoc Nemenyi tests indicate that outcomes from the proposed method are statistically equivalent to the ones obtained by objective-function regularization, implying that both methods yield smoother solutions, reducing the effects of overfitting.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Neural Networks Regularization With Graph-Based Local Resampling}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{pages}{50727\bibrangedash 50737}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2021.3068127
+      \endverb
+    \endentry
+    \entry{LivroTexto}{book}{}
+      \name{author}{3}{}{%
+        {{hash=f3538a4d0634398da148515a2a9eb281}{%
+           family={Pádua\bibnamedelima Braga},
+           familyi={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=435eebe17dd468afd9a1e1114e8fbd8e}{%
+           family={Leon\bibnamedelimb Ferreira\bibnamedelima Carvalho},
+           familyi={L\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={A.C.P.},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=75f0dbe76678182eb96b4c6a3d409338}{%
+           family={Ludermir},
+           familyi={L\bibinitperiod},
+           given={T.B.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Livros Técnicos e Científicos}%
+      }
+      \strng{namehash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \strng{fullhash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \strng{bibnamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \strng{authorbibnamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \strng{authornamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \strng{authorfullhash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9788521612186}
+      \field{title}{Redes neurais artificiais: teoria e aplicações}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?id=cUgEaAEACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?id=cUgEaAEACAAJ
+      \endverb
+    \endentry
+    \entry{LuizBambirra}{article}{}
+      \name{author}{4}{}{%
+        {{hash=69a9d7b0688e511d25e77b040a87ae9c}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={Luiz\bibnamedelimb C.\bibnamedelimi B.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=79784bc02706472758d6fbaffad68af8}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Cristiano\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=3bbca8c38cc33ce69d4806063aca5a9d}{%
+           family={Coelho},
+           familyi={C\bibinitperiod},
+           given={Frederico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5bd60c0f531ef2e3e575ff045d01a5be}{%
+           family={Braga},
+           familyi={B\bibinitperiod},
+           given={Antônio\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cf74a1ba60292ed2c1b74727eff6167}
+      \strng{fullhash}{78df9d4947eae55d88d1745ce0cdf85f}
+      \strng{bibnamehash}{5cf74a1ba60292ed2c1b74727eff6167}
+      \strng{authorbibnamehash}{5cf74a1ba60292ed2c1b74727eff6167}
+      \strng{authornamehash}{5cf74a1ba60292ed2c1b74727eff6167}
+      \strng{authorfullhash}{78df9d4947eae55d88d1745ce0cdf85f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This brief presents a geometrical approach for obtaining large margin classifiers. The method aims at exploring the geometrical properties of the data set from the structure of a Gabriel graph, which represents pattern relations according to a given distance metric, such as the Euclidean distance. Once the graph is generated, geometrical support vectors (SVs) (analogous to support vector machines (SVMs) SVs) are obtained in order to yield the final large margin solution from a Gaussian mixture model. Experiments with 20 data sets have shown that the solutions obtained with the proposed method are statistically equivalent to those obtained with SVMs. However, the present method does not require optimization and can also be extended to large data sets using the cascade SVM concept.}
+      \field{issn}{2162-2388}
+      \field{journaltitle}{IEEE Transactions on Neural Networks and Learning Systems}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Large Margin Gaussian Mixture Classifier With a Gabriel Graph Geometric Representation of Data Set Structure}
+      \field{volume}{32}
+      \field{year}{2021}
+      \field{pages}{1400\bibrangedash 1406}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/TNNLS.2020.2980559
+      \endverb
+    \endentry
+    \entry{GabrielGraph1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 12-May-2022]}
+      \field{title}{Gabriel graph --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Gabriel_graph&oldid=1087461346
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Gabriel_graph&oldid=1087461346
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer processors}
+  \missing{Adaline: Adaptive Linear Neuron or later Adaptive Linear Element}
+  \missing{CNN: Convolutional Neural Networks}
+  \missing{ESP-WHO: https://github.com/espressif/esp-who}
+  \missing{FPGA: Field-programmable gate array}
+  \missing{MCP: McCulloch-Pitts Neuron — Mankind's First Mathematical Model Of A Biological Neuron.}
+  \missing{Problemas multiobjetivo: Problemas com mais de um objetivo}
+  \missing{VHDL: VHSIC Hardware Description Language.}
+  \missing{espressif.com}
+\endrefsection
+\endinput
+

@@ -1,0 +1,31 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[62] biber-darwin:340> INFO - === Wed Jun  1, 2022, 21:32:07
+[76] Biber.pm:418> INFO - Reading 'main.bcf'
+[146] Biber.pm:972> INFO - Found 14 citekeys in bib section 0
+[158] Biber.pm:4383> INFO - Processing section 0
+[167] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
+[168] bibtex.pm:1713> INFO - LaTeX decoding ...
+[175] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[236] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[236] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[236] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[236] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
+[243] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[247] bbl.pm:757> INFO - Output to main.bbl
+[247] Biber.pm:130> WARN - legacy month field 'March' in entry 'LuizBambirra' is not an integer - this will probably not sort properly.
+[247] Biber.pm:130> WARN - legacy month field 'Feb' in entry 'HardwareGabrielGraph' is not an integer - this will probably not sort properly.
+[247] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_A8vH/8fe4c9854184545302f21ebf0d47516c_8114.utf8, line 3, warning: 41 characters of junk seen at toplevel
+[247] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_A8vH/8fe4c9854184545302f21ebf0d47516c_8114.utf8, line 19, warning: 42 characters of junk seen at toplevel
+[247] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_A8vH/8fe4c9854184545302f21ebf0d47516c_8114.utf8, line 35, warning: 16 characters of junk seen at toplevel
+[247] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_A8vH/8fe4c9854184545302f21ebf0d47516c_8114.utf8, line 45, warning: 67 characters of junk seen at toplevel
+[247] Biber.pm:130> WARN - I didn't find a database entry for 'MCP: McCulloch-Pitts Neuron — Mankind's First Mathematical Model Of A Biological Neuron.' (section 0)
+[247] Biber.pm:130> WARN - I didn't find a database entry for 'Adaline: Adaptive Linear Neuron or later Adaptive Linear Element' (section 0)
+[247] Biber.pm:130> WARN - I didn't find a database entry for 'CNN: Convolutional Neural Networks' (section 0)
+[247] Biber.pm:130> WARN - I didn't find a database entry for 'espressif.com' (section 0)
+[247] Biber.pm:130> WARN - I didn't find a database entry for 'ESP-WHO: https://github.com/espressif/esp-who' (section 0)
+[247] Biber.pm:130> WARN - I didn't find a database entry for 'Problemas multiobjetivo: Problemas com mais de um objetivo' (section 0)
+[247] Biber.pm:130> WARN - I didn't find a database entry for 'FPGA: Field-programmable gate array' (section 0)
+[247] Biber.pm:130> WARN - I didn't find a database entry for 'VHDL: VHSIC Hardware Description Language.' (section 0)
+[247] Biber.pm:130> WARN - I didn't find a database entry for 'ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer processors' (section 0)
+[247] Biber.pm:132> INFO - WARNINGS: 15
