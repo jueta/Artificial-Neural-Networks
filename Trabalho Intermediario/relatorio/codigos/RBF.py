@@ -17,14 +17,14 @@ def trainRBF(xin, yin, p, lambda_reg):
     nSamples = xin.shape[0]     # Numero de amostras.
     nDimension = xin.shape[1]   # Dimensao de entrada.  
 
-    xin = np.matrix(xin)  # garante que xin seja matriz
-    yin = np.matrix(yin)  # garante que yin seja matriz
+    xin = np.asmatrix(xin)  # garante que xin seja matriz
+    yin = np.asmatrix(yin)  # garante que yin seja matriz
 
     #clusteriza os dados de entrada por meio do algorítmo K-médias
     xclust = KMeans(n_clusters=p).fit(xin)
 
     # Armazena vetores de centros das funções
-    m = np.matrix(xclust.cluster_centers_)
+    m = np.asmatrix(xclust.cluster_centers_)
     covlist = []
     
     # Estima matrizes de covarância para todos os centros
@@ -54,7 +54,7 @@ def trainRBF(xin, yin, p, lambda_reg):
 
     A = (Haug.T @ Haug) + lambda_reg * np.identity(Haug.shape[1])  # Matriz de Variância
 
-    P = (nSamples * np.identity(Haug.shape[0]) - Haug @ (np.linalg.inv(A) @ Haug.T)) # Matriz de Projeção
+    P = (np.identity(nSamples) - Haug @ (np.linalg.inv(A) @ Haug.T)) # Matriz de Projeção
 
     W = (np.linalg.inv(A) @ Haug.T) @ yin.T    # Calculo dos pesos
 
