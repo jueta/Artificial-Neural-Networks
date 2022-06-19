@@ -709,12 +709,12 @@ INPUT ./Metodologia/Metodologia.tex
 INPUT Metodologia/Metodologia.tex
 INPUT ./Metodologia/Metodologia.tex
 INPUT Metodologia/Metodologia.tex
-INPUT /usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./Resultados/Resultados.tex
 INPUT Resultados/Resultados.tex
 INPUT ./Resultados/Resultados.tex
 INPUT Resultados/Resultados.tex
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./Discussoes/Discussoes.tex
 INPUT Discussoes/Discussoes.tex
 INPUT ./Discussoes/Discussoes.tex

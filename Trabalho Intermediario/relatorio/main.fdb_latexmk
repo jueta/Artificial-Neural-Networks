@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1655582687 "main.bcf" "main.bbl" "main" 1655582690
-  "main.bcf" 1655582690 110338 5f93d6dff84e66ca1d9abd51e011e740 "pdflatex"
-  "refs.bib" 1655562508 1149 59c76cdf5cfe181602c8c07b4992bf21 ""
+["biber main"] 1655611455 "main.bcf" "main.bbl" "main" 1655611461
+  "main.bcf" 1655611461 110491 1e3c51cf50c4629a96ef7552a8840237 "pdflatex"
+  "refs.bib" 1655610947 1555 313f45ba50b9fdb5bf7854f09af8ba19 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1655582689 "/Users/jota/Documents/RNA/Artificial Neural Networks/Trabalho Intermediario/relatorio/main.tex" "main.pdf" "main" 1655582690
+["pdflatex"] 1655611459 "/Users/jota/Documents/RNA/Artificial Neural Networks/Trabalho Intermediario/relatorio/main.tex" "main.pdf" "main" 1655611461
   "/Users/jota/Documents/RNA/Artificial Neural Networks/Trabalho Intermediario/relatorio/main.tex" 1655565477 875 84c19e4b6dc0f4592f273068b1294ca7 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -114,16 +114,16 @@
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "Conclusoes/Conclusoes.tex" 1655556741 302 40776b77b62ed22a1b17afcbb58f2893 ""
   "Discussoes/Discussoes.tex" 1655556777 1209 0dd3af41a402b18faa9eda57beed8e62 ""
-  "Introducao/Introducao.tex" 1655568056 2486 f9301253a17e0dc563c623e3fe359bd1 ""
-  "Metodologia/Metodologia.tex" 1655576655 902 632a1b0927b380ab80c2ddff864b7130 ""
+  "Introducao/Introducao.tex" 1655611205 2610 a3b77c8b98c0ae94fd318a3442b73ff4 ""
+  "Metodologia/Metodologia.tex" 1655611453 265 0621c046ff59e55c985ed1580b79fcae ""
   "Resultados/Resultados.tex" 1655568466 3574 aeba202f61f109968b2b02d01036731e ""
   "images/regularizacao.png" 1655564677 495790 44adde1a935184bc983753ba2047ca48 ""
-  "main.aux" 1655582690 28156 5729bc582595fe896d40c9c7f98059b7 "pdflatex"
-  "main.bbl" 1655582689 6045 cea242646cb31944278df65d1d98cf1e "biber main"
-  "main.out" 1655582690 692 c2208e9066d9304c40e6b57ef74f5431 "pdflatex"
-  "main.run.xml" 1655582690 2301 b072550c06ee518f76809c9dd1e1de46 "pdflatex"
+  "main.aux" 1655611461 28387 b4cdd906f0f7acdc6f40842e69832b4e "pdflatex"
+  "main.bbl" 1655611458 7457 262ee0b8191c24c17186c4146be73e94 "biber main"
+  "main.out" 1655611461 692 c2208e9066d9304c40e6b57ef74f5431 "pdflatex"
+  "main.run.xml" 1655611461 2301 b072550c06ee518f76809c9dd1e1de46 "pdflatex"
   "main.tex" 1655565477 875 84c19e4b6dc0f4592f273068b1294ca7 ""
-  "revisao/revisao.tex" 1655582685 357 325d40b97cb7f1f668aa94d14d47a9cf ""
+  "revisao/revisao.tex" 1655611444 1141 27a63e82e01569b3fb460ef44d2b1b04 ""
   (generated)
   "main.aux"
   "main.bcf"

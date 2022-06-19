@@ -1,35 +1,35 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[55] biber-darwin:340> INFO - === Sat Jun 18, 2022, 17:04:49
-[68] Biber.pm:418> INFO - Reading 'main.bcf'
-[137] Biber.pm:972> INFO - Found 20 citekeys in bib section 0
-[149] Biber.pm:4383> INFO - Processing section 0
-[157] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
-[158] bibtex.pm:1713> INFO - LaTeX decoding ...
-[162] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
-[211] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[211] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[211] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[211] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
-[217] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[219] bbl.pm:757> INFO - Output to main.bbl
-[219] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_V8pI/8fe4c9854184545302f21ebf0d47516c_58420.utf8, line 2, warning: 21 characters of junk seen at toplevel
-[219] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_V8pI/8fe4c9854184545302f21ebf0d47516c_58420.utf8, line 13, warning: 16 characters of junk seen at toplevel
-[219] Biber.pm:130> WARN - I didn't find a database entry for 'Corresponding author e-mail: doug@stat.umn.edu.' (section 0)
-[219] Biber.pm:130> WARN - I didn't find a database entry for 'Problemas multiobjetivo: Problemas com mais de um objetivo.' (section 0)
-[219] Biber.pm:130> WARN - I didn't find a database entry for 'ELM: Extreme Learning Machines' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'RBF: Radial Basis Function' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'espressif.com' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'ESP-WHO: https://github.com/espressif/esp-who' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'AlexAssis' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'GabrielGraph1' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'Problemas multiobjetivo: Problemas com mais de um objetivo' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'LuizBambirra' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'HardwareGabrielGraph' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'FPGA: Field-programmable gate array' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'VHDL: VHSIC Hardware Description Language.' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer processors' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'MCP: McCulloch-Pitts Neuron — Mankind's First Mathematical Model Of A Biological Neuron.' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'Adaline: Adaptive Linear Neuron or later Adaptive Linear Element' (section 0)
-[220] Biber.pm:130> WARN - I didn't find a database entry for 'CNN: Convolutional Neural Networks' (section 0)
-[220] Biber.pm:132> INFO - WARNINGS: 19
+[87] biber-darwin:340> INFO - === Sun Jun 19, 2022, 01:04:17
+[107] Biber.pm:418> INFO - Reading 'main.bcf'
+[222] Biber.pm:972> INFO - Found 21 citekeys in bib section 0
+[242] Biber.pm:4383> INFO - Processing section 0
+[256] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
+[257] bibtex.pm:1713> INFO - LaTeX decoding ...
+[264] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[349] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[349] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[349] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[349] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
+[360] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[363] bbl.pm:757> INFO - Output to main.bbl
+[363] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_eoqs/8fe4c9854184545302f21ebf0d47516c_65694.utf8, line 2, warning: 21 characters of junk seen at toplevel
+[363] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_eoqs/8fe4c9854184545302f21ebf0d47516c_65694.utf8, line 13, warning: 16 characters of junk seen at toplevel
+[363] Biber.pm:130> WARN - I didn't find a database entry for 'Problemas multiobjetivo: Problemas com mais de um objetivo' (section 0)
+[363] Biber.pm:130> WARN - I didn't find a database entry for 'ELM: Extreme Learning Machines' (section 0)
+[363] Biber.pm:130> WARN - I didn't find a database entry for 'RBF: Radial Basis Function' (section 0)
+[363] Biber.pm:130> WARN - I didn't find a database entry for 'Pruning (poda) algoritmo muito utilizado em Arvore de decisao' (section 0)
+[363] Biber.pm:130> WARN - I didn't find a database entry for 'OBD: Optimal Brain Damage' (section 0)
+[363] Biber.pm:130> WARN - I didn't find a database entry for 'OBS: Optimal Brain Surgeon' (section 0)
+[363] Biber.pm:130> WARN - I didn't find a database entry for 'MLP: Multilayer Percepetron' (section 0)
+[363] Biber.pm:130> WARN - I didn't find a database entry for 'AlexAssis' (section 0)
+[363] Biber.pm:130> WARN - I didn't find a database entry for 'GabrielGraph1' (section 0)
+[364] Biber.pm:130> WARN - I didn't find a database entry for 'LuizBambirra' (section 0)
+[364] Biber.pm:130> WARN - I didn't find a database entry for 'HardwareGabrielGraph' (section 0)
+[364] Biber.pm:130> WARN - I didn't find a database entry for 'FPGA: Field-programmable gate array' (section 0)
+[364] Biber.pm:130> WARN - I didn't find a database entry for 'VHDL: VHSIC Hardware Description Language.' (section 0)
+[364] Biber.pm:130> WARN - I didn't find a database entry for 'ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer processors' (section 0)
+[364] Biber.pm:130> WARN - I didn't find a database entry for 'MCP: McCulloch-Pitts Neuron — Mankind's First Mathematical Model Of A Biological Neuron.' (section 0)
+[364] Biber.pm:130> WARN - I didn't find a database entry for 'Adaline: Adaptive Linear Neuron or later Adaptive Linear Element' (section 0)
+[364] Biber.pm:130> WARN - I didn't find a database entry for 'CNN: Convolutional Neural Networks' (section 0)
+[364] Biber.pm:132> INFO - WARNINGS: 19

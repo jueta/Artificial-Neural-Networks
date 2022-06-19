@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  18 JUN 2022 17:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  19 JUN 2022 01:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -677,21 +677,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Corresponding author e-mail: doug@stat.umn.edu.
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                ELM: Extreme Learning Machines
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ESP-WHO: https://github.com/espressif/esp-who
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -733,6 +719,27 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                MLP: Multilayer Percepetron
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                OBD: Optimal Brain Damage
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                OBS: Optimal Brain Surgeon
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                Problemas multiobjetivo: Problemas com mais de um objetivo
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -740,7 +747,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Problemas multiobjetivo: Problemas com mais de um objetivo.
+(biblatex)                Pruning (poda) algoritmo muito utilizado em Arvore de decisao
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -758,13 +765,6 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                espressif.com
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
 Package biblatex Info: Reference section=0 on input line 20.
 Package biblatex Info: Reference segment=0 on input line 20.
@@ -776,15 +776,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 22.
  (./Introducao/Introducao.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 6.
+(Font)              <7> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 6.
+(Font)              <5> on input line 10.
 
 
-LaTeX Warning: Citation 'Corresponding author e-mail: doug@stat.umn.edu.' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'Problemas multiobjetivo: Problemas com mais de um objetivo.' on page 1 undefined on input line 10.
+LaTeX Warning: Citation 'Problemas multiobjetivo: Problemas com mais de um objetivo' on page 1 undefined on input line 10.
 
 
 LaTeX Warning: Citation 'ELM: Extreme Learning Machines' on page 1 undefined on input line 18.
@@ -792,44 +789,51 @@ LaTeX Warning: Citation 'ELM: Extreme Learning Machines' on page 1 undefined on 
 
 LaTeX Warning: Citation 'RBF: Radial Basis Function' on page 1 undefined on input line 18.
 
-<images/regularizacao.png, id=35, 506.89375pt x 446.66875pt>
+<images/regularizacao.png, id=34, 506.89375pt x 446.66875pt>
 File: images/regularizacao.png Graphic file (type png)
 <use images/regularizacao.png>
 Package pdftex.def Info: images/regularizacao.png  used on input line 22.
-(pdftex.def)             Requested size: 236.84843pt x 208.70752pt.
-) (./revisao/revisao.tex) (./Metodologia/Metodologia.tex
+(pdftex.def)             Requested size: 170.71652pt x 150.42726pt.
+) (./revisao/revisao.tex
 
-LaTeX Warning: Citation 'espressif.com' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation 'ESP-WHO: https://github.com/espressif/esp-who' on page 1 undefined on input line 8.
+LaTeX Warning: Citation 'Pruning (poda) algoritmo muito utilizado em Arvore de decisao' on page 1 undefined on input line 4.
 
 
-Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 1 might be wrong on input line 14.
+LaTeX Warning: Citation 'OBD: Optimal Brain Damage' on page 1 undefined on input line 4.
 
-[1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/regularizacao.png>])
-Overfull \hbox (5.79477pt too wide) in paragraph at lines 16--33
+LaTeX Warning: Citation 'OBS: Optimal Brain Surgeon' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'MLP: Multilayer Percepetron' on page 1 undefined on input line 6.
+
+) (./Metodologia/Metodologia.tex)
+Overfull \hbox (5.79477pt too wide) in paragraph at lines 9--33
 []\OT1/cmr/m/n/10 (-20) https://web.mit.edu/zoya/www/linearRegression.pdf
  []
 
 (./Resultados/Resultados.tex
 
-LaTeX Warning: Citation 'AlexAssis' on page 2 undefined on input line 3.
+LaTeX Warning: Citation 'AlexAssis' on page 1 undefined on input line 3.
 
 
-LaTeX Warning: Citation 'GabrielGraph1' on page 2 undefined on input line 4.
+LaTeX Warning: Citation 'GabrielGraph1' on page 1 undefined on input line 4.
 
 
-LaTeX Warning: Citation 'Problemas multiobjetivo: Problemas com mais de um objetivo' on page 2 undefined on input line 7.
+LaTeX Warning: Citation 'Problemas multiobjetivo: Problemas com mais de um objetivo' on page 1 undefined on input line 7.
 
 
 Underfull \hbox (badness 5374) in paragraph at lines 3--9
 \OT1/cmr/m/n/10 (+20) O ar-tigo \OT1/cmr/m/it/10 (+20) Neu-ral Networks Re-gu-la-ri-za-tion With
  []
 
+
+Package multicol Warning: I moved some lines to the next page.
+(multicol)                Footnotes on page 1 might be wrong on input line 9.
+
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/regularizacao.png>]
 
 LaTeX Warning: Citation 'LuizBambirra' on page 2 undefined on input line 10.
 
@@ -891,18 +895,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19432 strings out of 478268
- 342912 string characters out of 5846347
- 1133269 words of memory out of 5000000
- 37267 multiletter control sequences out of 15000+600000
- 478353 words of font info for 109 fonts, out of 8000000 for 9000
+ 19445 strings out of 478268
+ 343126 string characters out of 5846347
+ 1133264 words of memory out of 5000000
+ 37268 multiletter control sequences out of 15000+600000
+ 478779 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,68p,1089b,1664s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (3 pages, 451705 bytes).
+Output written on main.pdf (3 pages, 453134 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
  29238 words of extra memory for PDF output out of 29859 (max. 10000000)
 
