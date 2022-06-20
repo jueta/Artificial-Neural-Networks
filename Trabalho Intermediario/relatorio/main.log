@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  19 JUN 2022 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  19 JUN 2022 23:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -649,34 +649,6 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer processors
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Adaline: Adaptive Linear Neuron or later Adaptive Linear Element
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                AlexAssis
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                CNN: Convolutional Neural Networks
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                ELM: Extreme Learning Machines
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -684,35 +656,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                FPGA: Field-programmable gate array
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                GabrielGraph1
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                HardwareGabrielGraph
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                LuizBambirra
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                MCP: McCulloch-Pitts Neuron â€” Mankind's First Mathematical Model Of A Biological Neuron.
+(biblatex)                LINK DO GIT
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -761,7 +705,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                VHDL: VHSIC Hardware Description Language.
+(biblatex)                https://scikit-learn.org/stable/
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -807,87 +751,83 @@ LaTeX Warning: Citation 'OBS: Optimal Brain Surgeon' on page 1 undefined on inpu
 
 LaTeX Warning: Citation 'MLP: Multilayer Percepetron' on page 1 undefined on input line 6.
 
-) (./Metodologia/Metodologia.tex)
-Overfull \hbox (5.79477pt too wide) in paragraph at lines 9--33
-[]\OT1/cmr/m/n/10 (-20) https://web.mit.edu/zoya/www/linearRegression.pdf
- []
-
-(./Resultados/Resultados.tex
-
-LaTeX Warning: Citation 'AlexAssis' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation 'GabrielGraph1' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'Problemas multiobjetivo: Problemas com mais de um objetivo' on page 1 undefined on input line 7.
-
-
-Underfull \hbox (badness 5374) in paragraph at lines 3--9
-\OT1/cmr/m/n/10 (+20) O ar-tigo \OT1/cmr/m/it/10 (+20) Neu-ral Networks Re-gu-la-ri-za-tion With
- []
-
+) (./Metodologia/Metodologia.tex
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 1 might be wrong on input line 9.
+(multicol)                Footnotes on page 1 might be wrong on input line 6.
 
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/regularizacao.png>]
 
-LaTeX Warning: Citation 'LuizBambirra' on page 2 undefined on input line 10.
+LaTeX Warning: Citation 'LINK DO GIT' on page 2 undefined on input line 7.
 
+<images/img9.png, id=69, 284.06125pt x 52.195pt>
+File: images/img9.png Graphic file (type png)
+<use images/img9.png>
+Package pdftex.def Info: images/img9.png  used on input line 11.
+(pdftex.def)             Requested size: 170.71652pt x 31.3698pt.
+<images/img10.png, id=70, 205.76875pt x 35.13126pt>
+File: images/img10.png Graphic file (type png)
+<use images/img10.png>
+Package pdftex.def Info: images/img10.png  used on input line 20.
+(pdftex.def)             Requested size: 113.81102pt x 19.43105pt.
+<images/img11.png, id=71, 209.78375pt x 31.11626pt>
+File: images/img11.png Graphic file (type png)
+<use images/img11.png>
+Package pdftex.def Info: images/img11.png  used on input line 27.
+(pdftex.def)             Requested size: 113.81102pt x 16.88086pt.
+) (./Resultados/Resultados.tex
 
-LaTeX Warning: Citation 'HardwareGabrielGraph' on page 2 undefined on input line 23.
+LaTeX Warning: Citation 'https://scikit-learn.org/stable/' on page 2 undefined on input line 4.
 
-
-LaTeX Warning: Citation 'FPGA: Field-programmable gate array' on page 2 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'VHDL: VHSIC Hardware Description Language.' on page 2 undefined on input line 27.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
-[]\OT1/cmr/m/n/10 (+20) O ar-tigo \OT1/cmr/m/it/10 (+20) Enhan-cing Per-for-mance of Ga-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
-\OT1/cmr/m/it/10 (+20) briel Graph-Based Clas-si-fi-ers by a Hard-ware
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
-\OT1/cmr/m/it/10 (+20) Co-Processor for Em-bed-ded Sys-tem Ap-pli-ca-ti-
- []
-
-
-LaTeX Warning: Citation 'ARM is a family of reduced instruction set computer (RISC) instruction set architectures for computer processors' on page 2 undefined on input line 30.
-
-
-Overfull \hbox (27.71397pt too wide) in paragraph at lines 30--30
-[][][][]\OT1/cmr/m/n/8 (-20) .| 
- []
-
-) (./Discussoes/Discussoes.tex
-
-LaTeX Warning: Citation 'MCP: McCulloch-Pitts Neuron â€” Mankind's First Mathematical Model Of A Biological Neuron.' on page 2 undefined on input line 5.
-
-Missing character: There is no â in font cmbx8!
-Missing character: There is no € in font cmbx8!
-Missing character: There is no ” in font cmbx8!
-
-LaTeX Warning: Citation 'Adaline: Adaptive Linear Neuron or later Adaptive Linear Element' on page 2 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'CNN: Convolutional Neural Networks' on page 2 undefined on input line 12.
-
-) (./Conclusoes/Conclusoes.tex) [2]
+<images/img1.png, id=73, 390.45876pt x 273.02pt>
+File: images/img1.png Graphic file (type png)
+<use images/img1.png>
+Package pdftex.def Info: images/img1.png  used on input line 8.
+(pdftex.def)             Requested size: 170.71652pt x 119.37096pt.
+<images/img2.png, id=74, 380.42125pt x 266.9975pt>
+File: images/img2.png Graphic file (type png)
+<use images/img2.png>
+Package pdftex.def Info: images/img2.png  used on input line 14.
+(pdftex.def)             Requested size: 170.71652pt x 119.81775pt.
+<images/img3.png, id=75, 389.455pt x 264.99pt>
+File: images/img3.png Graphic file (type png)
+<use images/img3.png>
+Package pdftex.def Info: images/img3.png  used on input line 20.
+(pdftex.def)             Requested size: 170.71652pt x 116.15523pt.
+<images/img4.png, id=76, 391.4625pt x 270.00874pt>
+File: images/img4.png Graphic file (type png)
+<use images/img4.png>
+Package pdftex.def Info: images/img4.png  used on input line 26.
+(pdftex.def)             Requested size: 170.71652pt x 117.74948pt.
+<images/img5.png, id=77, 437.635pt x 320.19624pt>
+File: images/img5.png Graphic file (type png)
+<use images/img5.png>
+Package pdftex.def Info: images/img5.png  used on input line 43.
+(pdftex.def)             Requested size: 170.71652pt x 124.90533pt.
+[2 <./images/img9.png> <./images/img10.png> <./images/img11.png> <./images/img1.png> <./images/img2.png> <./images/img3.png> <./images/img4.png>]
+<images/img6.png, id=97, 391.4625pt x 261.97874pt>
+File: images/img6.png Graphic file (type png)
+<use images/img6.png>
+Package pdftex.def Info: images/img6.png  used on input line 52.
+(pdftex.def)             Requested size: 199.16928pt x 133.29158pt.
+<images/img7.png, id=98, 583.17876pt x 85.31876pt>
+File: images/img7.png Graphic file (type png)
+<use images/img7.png>
+Package pdftex.def Info: images/img7.png  used on input line 70.
+(pdftex.def)             Requested size: 227.62204pt x 33.3002pt.
+<images/img8.png, id=99, 394.47375pt x 255.95625pt>
+File: images/img8.png Graphic file (type png)
+<use images/img8.png>
+Package pdftex.def Info: images/img8.png  used on input line 84.
+(pdftex.def)             Requested size: 170.71652pt x 110.76985pt.
+) (./Discussoes/Discussoes.tex) (./Conclusoes/Conclusoes.tex [3 <./images/img5.png> <./images/img6.png> <./images/img7.png> <./images/img8.png>])
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [3] (./main.aux)
+ [4] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C2208E9066D9304C40E6B57EF74F5431;692.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -895,18 +835,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19445 strings out of 478268
- 343126 string characters out of 5846347
- 1133264 words of memory out of 5000000
- 37268 multiletter control sequences out of 15000+600000
- 478779 words of font info for 114 fonts, out of 8000000 for 9000
+ 19540 strings out of 478268
+ 344677 string characters out of 5846347
+ 1131671 words of memory out of 5000000
+ 37344 multiletter control sequences out of 15000+600000
+ 478611 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,68p,1089b,1664s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (3 pages, 453134 bytes).
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (4 pages, 1244698 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 29238 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 29293 words of extra memory for PDF output out of 29859 (max. 10000000)
 

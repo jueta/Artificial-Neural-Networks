@@ -8,3 +8,8 @@ https://realpython.com/train-test-split-python-data/
 
 
 jupyter nbconvert --to pdf exercicio2.ipynb
+
+
+https://www.chadvernon.com/blog/rbf/
+
+https://web.mit.edu/zoya/www/linearRegression.pdf

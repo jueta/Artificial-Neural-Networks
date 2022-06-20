@@ -1,13 +1,16 @@
 \section{Discussões}
 
-Estudos ao livro \emph{Redes neurais artificiais: teoria e aplicações} \cite{LivroTexto} 
-foram realizados de forma a gerar maior compreensão sobre o assunto. A princípio, foi estudado o primeiro
-modelo matemático de neurônios artificiais, o neurônio MCP\footcite{MCP: McCulloch-Pitts Neuron — Mankind's First Mathematical Model Of A Biological Neuron.}.
-Em seguida, implementados na linguagem python o modelo de neurônio de aproximação linear Adaline \footcite{Adaline: Adaptive Linear Neuron or later Adaptive Linear Element}
-e de um modelo de Adaline com uma função de ativação, tornando um neurônio classificador
-com melhores resultados quando comparado ao MCP,o neurônio de classificação Perceptron Simples.
+\subsection*{Experimento 1}
 
-Entender o funcionamento do modelo computacional de um neurônio permite também melhor compreensão dos estudos de 
-redes de neurônios. Para a aplicação a ser desenvolvida a ideia inicial é de detecção facial por meio de reconhecimento de imagens. Portanto,
-estudos sobre redes neurais convolucionais (CNN)\footcite{CNN: Convolutional Neural Networks} estão sendo feitos por se tratar
-de um modelo de rede utilizado para tratamento de imagens.
+Nesse experimento podemos ver visualmente que o efeito da regularização não afetou muito os resultados de classificação obtidos, o que é um resultado desejado
+visto que conseguimos reduzir a complexidade do modelo e ainda obter a resposta dentro do esperado.
+
+\subsection*{Experimento 2}
+
+Nesse experimento o foco foi na curva de soluções pareto-ótimas do problema. Qualquer solução escolhida nessa curva é um ponto ótimo entre o tradeoff de erro de predição e complexidade do modelo.
+Soluções acima dessa curva são consideradas soluções não otimizadas e as soluções abaixo da curva são não tangíveis ao problema e modelo utilizados. (considerando a quantidade de clusters da rede RBF como característica do modelo escolhido).
+
+\subsection*{Experimento 3 e 4}
+
+Nos experimentos utilizando o dataset do breast cancer os resultados com relação a regularização não foram conforme o esperado. No experimento 3 a acurácia subiu conforme aumentou o valor de lambida. Esse resultado é o oposto do esperado visto que estamos conseguindo melhorar os dois objetivos, portanto ainda não
+chegamos na região ótima de soluções. Já no experimento 4 podemos ver que a curva não tem o formato desejado igual a vista no experimento 2. Dessa forma, podemos deduzir que o modelo e a quantidade de clusters selecionada não conseguiu aproximar de um conjunto de soluções pareto-ótimas.
