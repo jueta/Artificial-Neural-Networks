@@ -1,0 +1,28 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[50] biber-darwin:340> INFO - === Mon Jul  4, 2022, 00:47:36
+[60] Biber.pm:418> INFO - Reading 'main.bcf'
+[128] Biber.pm:972> INFO - Found 15 citekeys in bib section 0
+[139] Biber.pm:4383> INFO - Processing section 0
+[147] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
+[148] bibtex.pm:1713> INFO - LaTeX decoding ...
+[153] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[215] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[215] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[215] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[215] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
+[223] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[227] bbl.pm:757> INFO - Output to main.bbl
+[227] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_OQF1/8fe4c9854184545302f21ebf0d47516c_68115.utf8, line 2, warning: 21 characters of junk seen at toplevel
+[227] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/76/q41_l1rj2px1gtbm8fzg0tb00000gn/T/biber_tmp_OQF1/8fe4c9854184545302f21ebf0d47516c_68115.utf8, line 13, warning: 16 characters of junk seen at toplevel
+[227] Biber.pm:130> WARN - I didn't find a database entry for 'Problemas multiobjetivo: Problemas com mais de um objetivo' (section 0)
+[227] Biber.pm:130> WARN - I didn't find a database entry for 'ELM: Extreme Learning Machines' (section 0)
+[227] Biber.pm:130> WARN - I didn't find a database entry for 'RBF: Radial Basis Function' (section 0)
+[227] Biber.pm:130> WARN - I didn't find a database entry for 'Pruning (poda) algoritmo muito utilizado em Arvore de decisao' (section 0)
+[227] Biber.pm:130> WARN - I didn't find a database entry for 'OBD: Optimal Brain Damage' (section 0)
+[227] Biber.pm:130> WARN - I didn't find a database entry for 'OBS: Optimal Brain Surgeon' (section 0)
+[227] Biber.pm:130> WARN - I didn't find a database entry for 'MLP: Multilayer Percepetron' (section 0)
+[227] Biber.pm:130> WARN - I didn't find a database entry for 'LINK DO GIT' (section 0)
+[227] Biber.pm:130> WARN - I didn't find a database entry for 'https://scikit-learn.org/stable/' (section 0)
+[227] Biber.pm:130> WARN - I didn't find a database entry for 'Multilayer Perceptron' (section 0)
+[227] Biber.pm:132> INFO - WARNINGS: 12

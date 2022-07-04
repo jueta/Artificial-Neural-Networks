@@ -1,0 +1,44 @@
+\documentclass[10pt]{article}
+\usepackage{multicol}
+\usepackage[brazilian]{babel}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}%
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage[backend=biber]{biblatex}
+\usepackage{newclude}
+\addbibresource{refs.bib}
+
+\title{\LARGE \bf
+Regularização de redes ELM e RBF 
+}
+
+\author{João Pedro Miranda Marques - 2017050495}
+
+\begin{document}
+\maketitle
+\begin{multicols}{2}
+% \thispagestyle{empty}
+% \pagestyle{empty}
+
+% \maketitle
+
+\include*{Introducao/Introducao}
+
+\include*{revisao/revisao}
+
+\include*{Metodologia/Metodologia}
+
+\include*{Resultados/Resultados}
+
+\include*{Discussoes/Discussoes}
+
+\include*{Conclusoes/Conclusoes}
+
+
+\end{multicols}
+% \pagebreak
+\printbibliography
+\end{document}

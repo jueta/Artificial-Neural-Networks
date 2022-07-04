@@ -1,0 +1,279 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{OverfittigProblems}{article}{}
+      \name{author}{1}{}{%
+        {{hash=374c19ef631c91f386846444ea48e6bb}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Douglas\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{374c19ef631c91f386846444ea48e6bb}
+      \strng{fullhash}{374c19ef631c91f386846444ea48e6bb}
+      \strng{bibnamehash}{374c19ef631c91f386846444ea48e6bb}
+      \strng{authorbibnamehash}{374c19ef631c91f386846444ea48e6bb}
+      \strng{authornamehash}{374c19ef631c91f386846444ea48e6bb}
+      \strng{authorfullhash}{374c19ef631c91f386846444ea48e6bb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Chemical Information and Computer Sciences}
+      \field{note}{PMID: 14741005}
+      \field{number}{1}
+      \field{title}{The Problem of Overfitting}
+      \field{volume}{44}
+      \field{year}{2004}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1021/ci0342472
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1021/ci0342472
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/ci0342472
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/ci0342472
+      \endverb
+    \endentry
+    \entry{mcelreath2016statistical}{book}{}
+      \name{author}{1}{}{%
+        {{hash=24cc4805e6a0d63b7901575154f13c2b}{%
+           family={McElreath},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{24cc4805e6a0d63b7901575154f13c2b}
+      \strng{fullhash}{24cc4805e6a0d63b7901575154f13c2b}
+      \strng{bibnamehash}{24cc4805e6a0d63b7901575154f13c2b}
+      \strng{authorbibnamehash}{24cc4805e6a0d63b7901575154f13c2b}
+      \strng{authornamehash}{24cc4805e6a0d63b7901575154f13c2b}
+      \strng{authorfullhash}{24cc4805e6a0d63b7901575154f13c2b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781482253467}
+      \field{series}{Chapman \& Hall/CRC Texts in Statistical Science}
+      \field{title}{Statistical Rethinking: A Bayesian Course with Examples in R and Stan}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?id=mDo0CwAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?id=mDo0CwAAQBAJ
+      \endverb
+    \endentry
+    \entry{OBDCAPES}{article}{}
+      \name{author}{1}{}{%
+        {{hash=727d456047efc0ae1758ae90cb78b1dd}{%
+           family={Medeiros},
+           familyi={M\bibinitperiod},
+           given={Cláudio\bibnamedelimb Marques\bibnamedelimb de\bibnamedelima Sá},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{727d456047efc0ae1758ae90cb78b1dd}
+      \strng{fullhash}{727d456047efc0ae1758ae90cb78b1dd}
+      \strng{bibnamehash}{727d456047efc0ae1758ae90cb78b1dd}
+      \strng{authorbibnamehash}{727d456047efc0ae1758ae90cb78b1dd}
+      \strng{authornamehash}{727d456047efc0ae1758ae90cb78b1dd}
+      \strng{authorfullhash}{727d456047efc0ae1758ae90cb78b1dd}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tese (Doutorado em Engenharia de Teleinformática)-Centro de Tecnologia, Universidade Federal do Ceará, Fortaleza}
+      \field{title}{A contribution to the problem of selection of neural models using the beginning of maximum correlation of the errors.}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb http://www.repositorio.ufc.br/handle/riufc/16117
+      \endverb
+      \verb{url}
+      \verb http://www.repositorio.ufc.br/handle/riufc/16117
+      \endverb
+    \endentry
+    \entry{LivroTexto}{book}{}
+      \name{author}{3}{}{%
+        {{hash=f3538a4d0634398da148515a2a9eb281}{%
+           family={Pádua\bibnamedelima Braga},
+           familyi={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=435eebe17dd468afd9a1e1114e8fbd8e}{%
+           family={Leon\bibnamedelimb Ferreira\bibnamedelima Carvalho},
+           familyi={L\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={A.C.P.},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=75f0dbe76678182eb96b4c6a3d409338}{%
+           family={Ludermir},
+           familyi={L\bibinitperiod},
+           given={T.B.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Livros Técnicos e Científicos}%
+      }
+      \strng{namehash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \strng{fullhash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \strng{bibnamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \strng{authorbibnamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \strng{authornamehash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \strng{authorfullhash}{0baac8786925e1f85b19b1b3c4ccd16c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9788521612186}
+      \field{title}{Redes neurais artificiais: teoria e aplicações}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?id=cUgEaAEACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?id=cUgEaAEACAAJ
+      \endverb
+    \endentry
+    \entry{scikitlearn}{article}{}
+      \name{author}{16}{}{%
+        {{hash=6e96fec0d63277626bb324bd28cdecb7}{%
+           family={Pedregosa},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b99c2df2144dc5ee09317a7833dea42d}{%
+           family={Varoquaux},
+           familyi={V\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=955f19cea89ae97bb7936078898e6255}{%
+           family={Gramfort},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2787869c9954c1d4e9891098995feb75}{%
+           family={Michel},
+           familyi={M\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=86d47ab9ca1a9dae108b4d4a0418c679}{%
+           family={Thirion},
+           familyi={T\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d42f9e9cec95da1dad2232eac74982ab}{%
+           family={Grisel},
+           familyi={G\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=8bd8ef25258dd2311f92df23fe71ecf7}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a5ee41fa92b9e425806e1773853f1932}{%
+           family={Prettenhofer},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0c808557734e8929976d1f06f99c4ff2}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9662a6ea01596c6dd450817ccac81c4a}{%
+           family={Dubourg},
+           familyi={D\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=39e81a3e2193b954680a0ab847a0bb55}{%
+           family={Vanderplas},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=14c4a498c032f77d0b83f86c710dd50e}{%
+           family={Passos},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dc075b18fb4710a1a37b258804c57efe}{%
+           family={Cournapeau},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=67ec0e8add781665a43010c9559111e9}{%
+           family={Brucher},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dcb3918f09eb8785e6b212a907cc37cf}{%
+           family={Perrot},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ab20fcf381cd45daa82417c6fc595051}{%
+           family={Duchesnay},
+           familyi={D\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a097aa3ebf2b8c2acf988341dde9710}
+      \strng{fullhash}{7a67607c66e4af944b5f16461d6d0a87}
+      \strng{bibnamehash}{3a097aa3ebf2b8c2acf988341dde9710}
+      \strng{authorbibnamehash}{3a097aa3ebf2b8c2acf988341dde9710}
+      \strng{authornamehash}{3a097aa3ebf2b8c2acf988341dde9710}
+      \strng{authorfullhash}{7a67607c66e4af944b5f16461d6d0a87}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{title}{Scikit-learn: Machine Learning in {P}ython}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{2825\bibrangedash 2830}
+      \range{pages}{6}
+    \endentry
+  \enddatalist
+  \missing{ELM: Extreme Learning Machines}
+  \missing{LINK DO GIT}
+  \missing{MLP: Multilayer Percepetron}
+  \missing{Multilayer Perceptron}
+  \missing{OBD: Optimal Brain Damage}
+  \missing{OBS: Optimal Brain Surgeon}
+  \missing{Problemas multiobjetivo: Problemas com mais de um objetivo}
+  \missing{Pruning (poda) algoritmo muito utilizado em Arvore de decisao}
+  \missing{RBF: Radial Basis Function}
+  \missing{https://scikit-learn.org/stable/}
+\endrefsection
+\endinput
+
