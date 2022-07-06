@@ -90,10 +90,44 @@ Podemos ver na figura \ref*{img8} que a curva de soluções não apresentou uma 
 
 Neste experimento foi utilizado uma rede de perceptrons em múltiplas camadas MLP\footcite[]{Multilayer Perceptron} para avaliar o efeito da regularização.
 Utilizando função MLPClassifier da biblioteca \emph{sklearn}\cite*[]{scikitlearn} podemos selecionar o parâmetro de regularização lambda referente ao processo de regularização Ridge (L2).
-Podemos ver o efeito desse parâmetro na figura\ref*{img8}.
+Podemos ver o efeito desse parâmetro na figura \ref*{img8}.
 
 \begin{figure}[H]
     \center
     \includegraphics[width=8cm]{images/img12.png}
     \caption{\label{img8}Soluções de uma rede MLP regularizada com dataset Breast Cancer}
 \end{figure}
+
+\subsection*{Experimento 6 - MLP}
+
+Utilizado novamente uma rede MLP\footcite[]{Multilayer Perceptron} nesse exemplo foi feito 
+com a base de dados digits. Nele calculamos a acurácia para regularização L1 - Ridge com fatores de penalização 0.01, 0.1 e 0.9.
+Para cada um deles vemos também a matriz de confusão de cada modelo predito.
+Podemos ver o efeito desse parâmetro na figura \ref*{img9}.
+
+\begin{figure}[H]
+    \center
+    \includegraphics[width=6cm]{images/img13.png}
+    \caption{\label{img9}Soluções de uma rede MLP regularizada com dataset Digits}
+\end{figure}
+
+\begin{figure}[H]
+  \center
+  \includegraphics[width=7cm]{images/img14.png}
+  \caption{\label{img10}Matriz de confusão - lambda = 0.01}
+\end{figure}
+
+
+\begin{figure}[H]
+  \center
+  \includegraphics[width=7cm]{images/img15.png}
+  \caption{\label{img11}Matriz de confusão - lambda = 0.1}
+\end{figure}
+
+\begin{figure}[H]
+  \center
+  \includegraphics[width=7cm]{images/img16.png}
+  \caption{\label{igm12}Matriz de confusão - lambda = 0.9}
+\end{figure}
+
+

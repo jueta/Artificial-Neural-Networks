@@ -14,3 +14,15 @@ Soluções acima dessa curva são consideradas soluções não otimizadas e as s
 
 Nos experimentos utilizando o dataset do breast cancer os resultados com relação a regularização não foram conforme o esperado. No experimento 3 a acurácia subiu conforme aumentou o valor de lambida. Esse resultado é o oposto do esperado visto que estamos conseguindo melhorar os dois objetivos, portanto ainda não
 chegamos na região ótima de soluções. Já no experimento 4 podemos ver que a curva não tem o formato desejado igual a vista no experimento 2. Dessa forma, podemos deduzir que o modelo e a quantidade de clusters selecionada não conseguiu aproximar de um conjunto de soluções pareto-ótimas.
+
+\subsection*{Experimento 5}
+
+Utilizando uma rede MLP e a base de dados Breast Cancer vemos novamente um comportamento não esperado, onde quando aumentamos do fator de regularização apresentamos uma acurácia ainda maior.
+Isso pode ser devido ao overfitting do modelo com relação ao conjunto de dados de treinamento, o que poderia estar prejudicando a acurácia com relação ao conjunto de dados de testes.
+Essa hipótese também é reforçada pelo fato de a acurácia ter melhorado apenas de 0.97 para 0.99, o que não foi uma brusca mudança mostrando que com a regularização conseguimos suavizar o ruído de erro no conjunto de treinamento.
+
+\subsection*{Experimento 6}
+
+Utilizando novamente uma rede MLP, porém dessa vez com a base de dados Digits podemos ver que aumetando o fator de regularização temos uma leve redução na acurácia de testes. De 0.974 para 0.959, o que nos mostra que a simplificação no modelo
+devido a regularização piorou a acurácia porém pode continuar sendo um resultado positivo pois o modelo por ser mais simples apresenta melhor performance de predição.
+Podemos ver essa simplificação de forma visual ao avaliar a matriz de confusão de cada modelo. Vemos que com o maior lambda temos uma matriz mais diagonalizada, representando um modelo com pesos menores.
